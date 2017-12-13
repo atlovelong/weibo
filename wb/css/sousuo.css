@@ -1,0 +1,113 @@
+@import url('base.css');
+*{
+	box-sizing: border-box;
+}
+img,a{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+header{
+	width: 100%;
+	height: .51rem;
+	/* background-color: red; */
+}
+.sousuo{
+	height: 100%;
+	width: 100%;
+	/* background-color: lightgreen; */
+	border-bottom: .01rem solid #efefef;
+	display: flex;
+}
+.ssboxleft{
+	width: .32rem;
+	height: 100%;
+	/* background-color: mediumvioletred; */
+	padding-top: .18rem;
+	padding-left: .16rem;
+}
+.ssboxleft a span{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+.ssboxcenter{
+	width: 2.78rem;
+	height: 100%;
+	/* background-color: blue; */
+}
+.ssboxcenter input{
+	display: block;
+	width: 100%;
+	height: 100%;
+	outline: none;
+	border: none;
+}
+.ssboxright{
+	width: .4rem;
+	height: 100%;
+	/* background-color: red; */
+	padding-top: .2rem;
+}
+.leftan{
+	width: .16rem;
+	height: .16rem;
+	/* background-color: green; */
+}
+.quxiao{
+	width: .4rem;
+	height: .16rem;
+	/* background-color: green; */
+	font-size: .16rem;
+	line-height: .16rem;
+	color: #f97c80;
+}
+section{
+	width: 100%;
+	height: .48rem;
+	/* background-color: red; */
+}
+.section-box{
+	width: 100%;
+	height: 100%;
+	/* background-color: green; */
+	border-bottom: .01rem solid #efefef;
+	padding-top: .16rem;
+	padding-left: .16rem;
+}
+.secboxin{
+	width: 100%;
+	height: .14rem;
+	/* background-color: red; */
+	display: flex;
+}
+.secboxin span{
+	display: block;
+	font-size: .14rem;
+	line-height: .14rem;
+	color: #aeadad;
+}
+article{
+	width: 100%;
+	height: .5rem;
+	/* background-color: red; */
+}
+.article-box{
+	width: 100%;
+	height: 100%;
+	/* background-color: blue; */
+	padding-top: .2rem;
+	border-bottom: .01rem solid #efefef;
+}
+.artboxin{
+	width: 100%;
+	height: .12rem;
+	/* background-color: red; */
+}
+.artboxin span{
+	display: block;
+	font-size: .12rem;
+	line-height: .12rem;
+	text-align: center;
+	color: #aeadad;
+}

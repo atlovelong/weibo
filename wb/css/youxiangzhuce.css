@@ -1,0 +1,285 @@
+/*
+* @Author: Administrator
+* @Date:   2017-08-06 10:02:29
+* @Last Modified by:   Administrator
+* @Last Modified time: 2017-08-06 13:47:04
+*/
+@import url('base.css');
+*{
+	box-sizing: border-box;
+}
+img,a{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+body{
+	background-color: #f2f1f6;
+}
+header{
+	width: 100%;
+	height: .5rem;
+	background-color: #f75b5c;
+}
+.header{
+	width: 100%;
+	height: .5rem;
+	background-color: #f75b5c;
+	display: flex;
+	justify-content: space-between;
+}
+.headerleft{
+	width: .56rem;
+	height: 100%;
+	/* background-color: blue; */
+	padding-top: .18rem;
+	padding-left: .04rem;
+}
+.fanhui{
+	width: .52rem;
+	height: .16rem;
+	/* background-color: red; */
+	display: flex;
+}
+.iconfh{
+	width: .18rem;
+	height: 100%;
+	/* background-color: yellow; */
+}
+.iconfh span{
+	display: block;
+	width: .08rem;
+	height: 100%;
+	color: #fff;54
+}
+.fhword{
+	width: .34rem;
+	height: 100%;
+	/* background-color: green; */
+}
+.fhword a{
+	font-size: .14rem;
+	color: #fff;
+	line-height: .16rem
+}
+.headerin{
+	width: .36rem;
+	height: 100%;
+	/* background-color: green; */
+	font-size: .18rem;
+	line-height: .5rem;
+	color: #fff;
+}
+.headerright{
+	width: .5rem;
+	height: 100%;
+	/* background-color: blue; */
+	padding-top: .18rem;
+}
+.xiayibu{
+	width: .44rem;
+	height: .14rem;
+	/* background-color: yellow; */
+}
+.xiayibu a{
+	font-size: .14rem;
+	color: #fff;
+	line-height: .14rem;
+}
+.zhucelan{
+	width: 100%;
+	height: .34rem;
+	/* background-color: red; */
+	display: flex;
+}
+.youxiang{
+	width: 33.333333%;
+	height: 100%;
+    /* background-color: green; */
+    border-bottom: .01rem solid #f96565;
+}
+.youxiang a{
+	font-size: .14rem;
+    line-height: .34rem;
+    text-align: center;
+    color: #000;
+
+}
+.shouji{
+	width: 33.333333%;
+	height: 100%;
+    /* background-color: blue; */
+}
+.shouji a{
+	font-size: .14rem;
+    line-height: .34rem;
+    text-align: center;
+    color: #ccc;
+}
+.nicheng{
+	width: 33.333333%;
+	height: 100%;
+    /* background-color: green; */
+}
+.nicheng a{
+	font-size: .14rem;
+    line-height: .34rem;
+    text-align: center;
+    color: #ccc;
+}
+.zhucexinxi{
+	width: 100%;
+	height: 1.92rem;
+	background-color: #fff;
+	border-top: .01rem solid #ccc;
+	padding-left: .12rem;
+	margin-top: .22rem;
+}
+.yxbox{
+	width: 100%;
+	height: 25%;
+	/* background-color: green; */
+	display: flex;
+	border-bottom: .01rem solid #ccc;
+}
+.yxboxleft{
+	width: .4rem;
+	height: 100%;
+	/* background-color: red; */
+	font-size: .16rem;
+	line-height: .48rem;
+	color: #000;
+}
+.yxboxright{
+	width: 3.1rem;
+	height: 100%;
+	/* background-color: blue; */
+}
+input{
+	display: block;
+	width: 100%;
+	height: 100%;
+	outline: none;
+}
+ .yxboxright input{
+	display: block;
+	width: 100%;
+	height: 100%;
+	outline: none;
+	border: 0;
+}
+.qrmmboxright input{
+	outline: none;
+	display: block;
+	width: 100%;
+	height: 100%;
+	border: 0;
+}
+.ncbox{
+	width: 100%;
+	height: 25%;
+	/* background-color: green; */
+	display: flex;
+}
+.ncboxleft{
+    width: .4rem;
+	height: 100%;
+	/* background-color: red; */
+	font-size: .16rem;
+	line-height: .48rem;
+	color: #000;
+}
+.qrmmbox{
+	width: 100%;
+	height: 25%;
+	/* background-color: green; */
+	display: flex;
+	position: relative;
+}
+.qrmmboxleft{
+	width: .7rem;
+	height: 100%;
+	/* background-color: red; */
+	font-size: .16rem;
+	line-height: .48rem;
+	color: #000;
+}
+.qrmmboxright{
+	width: 2.8rem;
+	height: 100%;
+	/* background-color: blue; */
+}
+.chongzhi{
+	position: absolute;
+	width: .16rem;
+	height: .16rem;
+	background-color: black;
+	border-radius: 50%;
+	right: .12rem;
+	top: .18rem;
+}
+.bottom{
+	width: 100%;
+	height: .38rem;
+	/* background-color: green; */
+	display: flex;
+	justify-content: space-between;
+	padding: 0 0.12rem;
+}
+.left{
+	width: .82rem;
+	height: 100%;
+	/* background-color: red; */
+	position: relative;
+}
+.right{
+	width:1.72rem;
+	height: 100%;
+	/* background-color: blue; */
+	padding-top: .14rem;
+}
+.leftbox{
+	width: .68rem;
+	height: .12rem;
+	/* background-color: pink; */
+	display: flex;
+	justify-content: space-between;
+	position: absolute;
+	top: .12rem;
+}
+.input{
+	width: .12rem;
+	height: .12rem;
+	/* background-color: red; */
+}
+.leftz{
+	width: .54rem;
+	height: .12rem;
+	/* background-color: green; */
+	font-size: .12rem;
+	line-height: .12rem;
+	text-align: center;
+	color: #ccc;
+
+}
+.rightz{
+	width: 1.72rem;
+	height: .12rem;
+	/* background-color: green; */
+	font-size: .12rem;
+	line-height: .12rem;
+		display: flex;
+	justify-content: space-between;
+}
+.rightz a{
+	width: .9rem;
+	text-decoration: underline;
+	font-size: .12rem;
+	color: #f97e80;
+}
+.aa{
+	width: .82rem;
+	height: 100%;
+		font-size: .12rem;
+	line-height: .12rem;
+}

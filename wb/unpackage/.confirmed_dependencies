@@ -1,0 +1,119 @@
+{
+  "zhuye.html": {
+    "resources": [
+      "index.html",
+      "css/zhuye.css",
+      "img/content4.png",
+      "iconfont/iconfont.css"
+    ],
+    "refer": [
+      "index.html"
+    ]
+  },
+  "index.html": {
+    "resources": [
+      "zhuye.html",
+      "css/index.css",
+      "css/base.css",
+      "img/banner.png",
+      "img/content3.png",
+      "img/content2.png",
+      "iconfont/iconfont.woff",
+      "img/content1.png",
+      "js/rem.js",
+      "iconfont/iconfont.css",
+      "sousuo.html",
+      "denglu.html",
+      "zhuyefenlei.html"
+    ],
+    "refer": [
+      "zhuye.html"
+    ]
+  },
+  "sousuo.html": {
+    "resources": [
+      "css/sousuo.css",
+      "index.html"
+    ],
+    "refer": [
+      "index.html"
+    ]
+  },
+  "denglu.html": {
+    "resources": [
+      "css/denglu.css",
+      "shouye.html"
+    ],
+    "refer": []
+  },
+  "denglu (2).html": {
+    "resources": [
+      "denglushuruhou.html",
+      "css/denglu (2).css"
+    ],
+    "refer": [
+      "denglushuruhou.html"
+    ]
+  },
+  "denglushuruhou.html": {
+    "resources": [
+      "css/denglushuruhou.css",
+      "shouye.html"
+    ],
+    "refer": []
+  },
+  "shouye.html": {
+    "resources": [
+      "denglu (2).html",
+      "img/tupianzhuye.jpg",
+      "css/shouye.css",
+      "zhuceyamian.html"
+    ],
+    "refer": [
+      "denglu (2).html"
+    ]
+  },
+  "zhuceshuruhou.html": {
+    "resources": [
+      "css/zhuceshuruhou.css",
+      "zhucewancheng.html"
+    ],
+    "refer": [
+      "zhucewancheng.html"
+    ]
+  },
+  "zhucewancheng.html": {
+    "resources": [
+      "img/figure7.png",
+      "css/zhucewancheng.css"
+    ],
+    "refer": []
+  },
+  "zhuceyamian.html": {
+    "resources": [
+      "zhuceshuruhou.html",
+      "css/zhuceyemian.css"
+    ],
+    "refer": [
+      "zhuceshuruhou.html"
+    ]
+  },
+  "zhuyefenlei.html": {
+    "resources": [
+      "img/figure2.png",
+      "sousuobianji.html",
+      "img/figure4.png",
+      "img/figure3.png",
+      "img/figure1.png",
+      "css/zhuyefenlei.css"
+    ],
+    "refer": [
+      "sousuobianji.html"
+    ]
+  },
+  "sousuobianji.html": {
+    "resources": [
+      "css/sousuobianji.css"
+    ]
+  }
+}

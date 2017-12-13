@@ -1,0 +1,200 @@
+/*
+* @Author: Administrator
+* @Date:   2017-08-06 23:36:47
+* @Last Modified by:   Administrator
+* @Last Modified time: 2017-08-07 00:22:29
+*/
+@import url('base.css');
+*{
+	box-sizing: border-box;
+}
+img,a,p{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+
+main{
+	width: 3.5rem;
+	height: 100%;
+	background-color: #fff;
+}
+header{
+	width: 100%;
+	height: .52rem;
+	/* background-color: red; */
+	position: relative;
+}
+.nav{
+	position: absolute;
+	top: .16rem;
+	width: 100%;
+	height: .16rem;
+	/* background-color: red; */
+	display: flex;
+	justify-content: space-between;
+    padding: 0 .12rem;
+}
+.zuo{
+	width: .1rem;
+	height: 100%;
+	/* background-color: green;
+}
+.zuo a{
+	color: #909090;
+}
+.you{
+	width: .26rem;
+	height: 100%;
+	/* background-color: green; */
+}
+.you a{
+	font-size: .3rem;
+	line-height: .12rem;
+	color: #909090;
+}
+/*bt*/
+.bt{
+	width: 100%;
+	height: 0.87rem;
+	background: #fff;
+	border-bottom: 0.01rem solid #879095;
+	border-top: 0.01rem solid #879095;
+	padding: 0.15rem;
+	padding-bottom: 0.13rem;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+.bts{
+	width: 100%;
+	height: 0.4rem;
+	font-size: 0.16rem;
+	color: #000;
+	
+}
+.btx{
+	width: 100%;
+	height: 0.12rem;
+	font-size: 0.12rem;
+	line-height: 0.12rem;
+	color: #a7a7a7;
+	
+}
+.tu{
+	width: 100%;
+	height: 2.1rem;
+	border: 0.01rem solid #959DA0;
+}
+.tu2{
+	width: 1.46rem;
+	height: 0.32rem;
+	border-bottom: 0.01rem solid #EFEFEF;
+	font-size: 0.12rem;
+	line-height: 0.32rem;
+	text-align: center;
+	margin: 0 auto;
+}
+.sm{
+	width: 100%;
+	height: 1.67rem;
+	padding: 0 0.14rem;
+	padding-top: 0.04rem;
+	border-bottom: 0.01rem solid #EFEFEF;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	font-size: 0.14rem;
+	
+}
+.sms{
+	width: 100%;
+	height: 1.27rem;
+	color: #727272;	
+}
+
+.smx{
+	width: 100%;
+	height: 0.32rem;
+	/* line-height: 0.14rem; */
+	color: #727272;
+	
+}
+.pl{
+	width: 100%;
+	height: 0.47rem;
+	background: #f8f8f8;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-top: .26rem;
+}
+input{
+	outline: none;
+	display: block;
+	width: 1.62rem;
+	height: 0.17rem;
+	background: #f8f8f8;
+	border: none;
+	border-right: 0.01rem solid #ebebeb;
+	font-size: 0.16rem;
+	color: #A7A7A7;
+	line-height: 0.17rem;
+}
+.pl1{
+	width: 1.47rem;
+	height: 0.21rem;
+	display: flex;
+	justify-content: space-between;
+}
+.pl1 li{
+	width: 0.45rem;
+	height: 100%;
+	display: flex;
+	justify-content: flex-start;
+	font-size: 0.14rem;
+	color: #898989;
+	
+}
+.pl1 li:nth-child(3){
+	width: 0.18rem;
+}
+.pl1 li a{
+	color: #898989;
+}
+.pl1 li span{
+	font-size: 0.08rem;
+	color: #c8c8c8;
+}
+body{
+	display: flex;
+	overflow: hidden;	
+	justify-content: flex-end;
+	background-color: #e4e4e5;
+}
+.sz{
+	width: 2.35rem;
+	height: 100%;
+	/* background: #F7F6FB; */
+	flex-shrink: 0;
+	padding-left: 0.32rem;
+	padding-top: 0.8rem;
+}
+.sz1{
+	width: 1.59rem;
+	height: 3.04rem;
+	display: flex;
+	flex-wrap: wrap;
+}
+.sz1 li{
+	width: 100%;
+	height: 0.61rem;
+	font-size: 0.16rem;
+	color: #F6827F;
+	line-height: 0.61rem;
+	padding-left: 0.12rem;
+	border-bottom: 0.02rem solid #EBECF1;
+}
+.sz1 li a{
+	color: #F6827F;
+}

@@ -1,0 +1,153 @@
+/*
+* @Author: Administrator
+* @Date:   2017-08-05 14:39:59
+* @Last Modified by:   Administrator
+* @Last Modified time: 2017-08-05 16:03:09
+*/
+@import url('base.css');
+*{
+	box-sizing: border-box;
+}
+img,a{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+header{
+	width: 100%;
+	height: .51rem;
+}
+.header{
+	width: 100%;
+	height: 100%;
+	/* background-color: red; */
+	border-bottom: .01rem solid #e0e0e0;
+	display: flex;
+	justify-content: space-between;
+}
+.header-boxleft{
+	width: .38rem;
+	height: 100%;
+	/* background-color: green; */
+	padding-top: .2rem;
+}
+.header-boxin{
+	width: .36rem;
+	height: 100%;
+	/* background-color: blue; */
+	padding-top: .18rem;
+}
+.fenlei{
+	width: 100%;
+	height: .18rem;
+	/* background-color: red; */
+	font-size: .18rem;
+	line-height: .18rem;
+	color: black;
+	font-weight: bold;
+}
+.bianji{
+	width: 100%;
+	height: .14rem;
+	/* background-color: blue; */
+	font-size: .14rem;
+	line-height: .14rem;
+}
+.bianji a span{
+	display: block;
+	color: #f97a74;
+}
+main{
+	width: 100%;
+	height: .42rem;
+	/* background-color: red; */
+}
+.main{
+	width: 100%;
+	height: 100%;
+	/* background-color: red; */
+	display: flex;
+	/* border-bottom: .01rem solid ##e0e0e0; */
+
+}
+.mainleft{
+	width: 3.06rem;
+	height: 100%;
+	background-color: #e2e2e2;
+	border-right: .01rem solid #e0e0e0;
+	padding-top: .04rem;
+	padding-left: .12rem;
+}
+.mainright{
+	width: .44rem;
+	height: 100%;
+	/* background-color: blue; */
+	padding-top: .16rem;
+	padding-left: .16rem;
+}
+.input{
+	width: 2.8rem;
+	height: .34rem;
+	/* background-color: #e2e2e2; */
+	position: relative;
+}
+.input input{
+	display: block;
+	width: 100%;
+	height: 100%;
+	border-radius: .1rem;
+	border: .01rem solid #e0e0e0;
+	padding-left: .36rem;
+	color: #b8b8b8;
+	outline: none;
+}
+.ssiconfont{
+	position: absolute;
+	width: .16rem;
+	height: .16rem;
+	/* background-color: yellow; */
+	z-index: 10;
+	top: .1rem;
+	left: .12rem;
+}
+.ssiconfont span{
+	display: block;
+	width: 100%;
+	height: 100%;
+	color: #757575;
+}
+.jiantou{
+	width: .14rem;
+	height: .08rem;
+	/* background-color: pink; */
+}
+.jiantou span{
+	display: block;
+	width: 100%;
+	height: 100%;
+	line-height: .08rem;
+	text-align: center;
+	color: #757575;
+}
+figure{
+	width: 100%;
+	height: auto;
+}
+.figure-box1{
+	width: 100%;
+	height: 1.74rem;
+	/* background-color: red; */
+	display: flex;
+    justify-content: space-between;
+    margin-bottom: .06rem;
+}
+.figure-box1-left{
+	width: 1.72rem;
+	height: 100%;
+	background-color: green;
+}
+.figure-box1-right{
+	width: 1.72rem;
+	height: 100%;
+	background-color: green;
+}

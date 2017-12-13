@@ -1,0 +1,104 @@
+/*
+* @Author: Administrator
+* @Date:   2017-08-07 01:31:55
+* @Last Modified by:   Administrator
+* @Last Modified time: 2017-08-08 08:40:15
+*/
+@import url('base.css');
+*{
+	box-sizing: border-box;
+}
+img,a{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+.beijing{
+	width: 100%;
+	height: 6.21rem;
+	background: green;
+	position: relative;
+}
+.zhezhao{
+	width: 100%;
+	height: 6.21rem;
+	background: rgba(0,0,0,0.6);
+	position: absolute;
+	top: 0;
+	left: 0;
+	padding-top: 0.31rem;
+}
+.x{
+	width: 0.16rem;
+	height: 0.16rem;
+	font-size: 0.16rem;
+	line-height: 0.16rem;
+	color: #727783;
+	margin-left: 0.16rem;
+	/* background: red; */
+	color: #979ca0;
+}
+.dl{
+	width: 2.87rem;
+	height: 1.49rem;
+	margin-top: 0.04rem;
+	margin-left: 0.29rem;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: flex-end;
+}
+.dl li{
+	width: 100%;
+	height: 0.59rem;
+	font-size: 0.14rem;
+	color: #fff;
+	border-bottom: 0.01rem solid #fff;
+	line-height: 0.59rem;
+	display: flex;
+	justify-content: space-between;
+	
+	
+}
+.dl li input{
+	display: block;
+	width: 100%;
+	height: 80%;
+	outline: none;
+	border: none;
+	background: none;
+}
+.dl li div{
+	width: 0.12rem;
+	height: 100%;
+	color: #53565C;
+	/*line-height: 0.59rem;*/
+}
+.dl li:nth-child(2){
+	opacity: 0.4;
+}
+.dl li:nth-child(3){
+	width: 0.72rem;
+	height: 0.16rem;
+	align-self: flex-end;
+	border: none;
+}
+.dl li:nth-child(3) a{
+	color: #fff;
+	opacity: 0.4;
+}
+.dl1{
+	color: #fff;
+	
+
+	line-height: 0.66rem;
+	font-size: 0.16rem;
+	text-align: center;
+
+	width: 100%;
+	height: 0.66rem;
+	background: rgba(165,4,74,1);
+    position: fixed;
+	bottom: 0;
+	left: 0;
+	color: #fff;
+}

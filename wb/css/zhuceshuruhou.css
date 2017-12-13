@@ -1,0 +1,115 @@
+/*
+* @Author: Administrator
+* @Date:   2017-08-07 01:56:54
+* @Last Modified by:   Administrator
+* @Last Modified time: 2017-08-07 19:39:07
+*/
+@import url('base.css');
+*{
+	box-sizing: border-box;
+}
+img,a{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+.beijing{
+	width: 100%;
+	height: 6.21rem;
+	background: green;
+	position: relative;
+}
+header{
+	width: 100%;
+	height: 0.38rem;
+	background: #D30D2E;
+	line-height: 0.38rem;
+	font-size: 0.14rem;
+	color: #fff;
+	display: flex;
+	justify-content: center;
+}
+p{
+	text-decoration: underline;
+	color: #fff;
+}
+.zhezhao{
+	width: 100%;
+	height: 6.21rem;
+	background: rgba(0,0,0,.6);
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+.x{
+	width: 0.16rem;
+	height: 0.16rem;
+	font-size: 0.16rem;
+	line-height: 0.16rem;
+	color: #727783;
+	margin-left: 0.16rem;	
+}
+.dl{
+	width: 2.87rem;
+	height: 2.09rem;
+	margin-top: 0.11rem;
+	margin-left: 0.29rem;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: flex-end;
+}
+.dl li{
+	width: 100%;
+	height: 0.59rem;
+	font-size: 0.14rem;
+	color: #fff;
+	border-bottom: 0.01rem solid #fff;
+	display: flex;
+	justify-content: space-between;
+}
+.dl li div{
+	width: 0.14rem;
+	height: 100%;
+	line-height: 0.59rem;
+	color: #96979C;
+	line-height: 0.5rem;
+}
+.dl li input{
+	display: block;
+	width: 100%;
+	height: 80%;
+	outline: none;
+	border: none;
+	background: none;
+}
+.box{
+	font-size: 0.12rem;
+	width:100%;
+	height: 0.16rem;
+	border: none;
+	color: #b0b0b0;
+    padding-left: 1.5rem;
+}
+.box input{
+	color: #b0b0b0;
+	line-height: .12rem;
+}
+.box span{
+	color: red;
+	text-decoration: underline;
+	line-height: .12rem;
+}
+.dlbottom{
+	color: #fff;
+	line-height: 0.66rem;
+	font-size: 0.16rem;
+	text-align: center;
+
+	width: 100%;
+	height: 0.66rem;
+	background: rgba(165,4,74,1);
+    position: fixed;
+	bottom: 0;
+	left: 0;
+	color: #fff;
+}

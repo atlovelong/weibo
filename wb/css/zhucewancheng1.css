@@ -1,0 +1,169 @@
+/*
+* @Author: Administrator
+* @Date:   2017-08-07 02:02:41
+* @Last Modified by:   Administrator
+* @Last Modified time: 2017-08-07 19:32:27
+*/
+@import url('base.css');
+*{
+	box-sizing: border-box;
+}
+img,a{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+.beijing{
+	width: 100%;
+	height: 6.21rem;
+	background: green;
+	position: relative;
+}
+.bigbox{
+	width: 100%;
+	height: 6.21rem;
+	position: absolute;
+	top: 0;
+	left: 0;
+	padding-top: 0.31rem;
+}
+.x{
+	width: 0.16rem;
+	height: 0.16rem;
+	font-size: 0.16rem;
+	line-height: 0.16rem;
+	color: #727783;
+	margin-left: 0.16rem;
+}
+.dl{
+	width: 2.87rem;
+	height: 2.09rem;
+	margin-top: 0.04rem;
+	margin-left: 0.29rem;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: flex-end;
+}
+.dl li{
+	width: 100%;
+	height: 0.59rem;
+	font-size: 0.14rem;
+	color: #fff;
+	border-bottom: 0.01rem solid #fff;
+	display: flex;
+	justify-content: space-between;
+}
+.dl li div{
+	width: 0.14rem;
+	height: 100%;
+	line-height: 0.59rem;
+	color: #96979C;
+}
+.dl li input{
+	display: block;
+	width: 100%;
+	height: 80%;
+	outline: none;
+	border: none;
+	background: none;
+}
+.dl li:nth-child(4){
+	font-size: 0.12rem;
+	width: 1.5rem;
+	height: 0.16rem;
+	align-self: flex-end;
+	border: none;
+	color: #b0b0b0;
+}
+.dl li:nth-child(4) input{
+	display: none;
+	color: #b0b0b0;
+}
+.dl li:nth-child(4) span{
+	color: #b0b0b0;
+	text-decoration: underline;
+}
+.dl1{
+	color: #fff;
+	line-height: 0.66rem;
+	font-size: 0.16rem;
+	text-align: center;
+	width: 100%;
+	height: 0.66rem;
+	background: rgba(165,4,74,1);
+    position: fixed;
+	bottom: 0;
+	left: 0;
+	color: #fff;
+}
+.querenkuang{
+	width: 2.96rem;
+	height: 1.26rem;
+	background: #fff;
+	border-radius: 0.05rem;
+	box-shadow: 0 0 10rem 10rem rgba(0, 0, 0, 0.5);
+	display: flex;
+	flex-wrap: wrap;
+	position: fixed;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	margin: auto auto;
+	z-index: 10;
+}
+.querenkuang li:nth-child(1){
+	width: 100%;
+	height: 0.78rem;
+	border-bottom: 0.01rem solid #D6DADD;
+	display: flex;
+	flex-direction: column;
+	padding: 0.15rem 0;
+	align-items: center;
+	justify-content: space-between;
+}
+.querenkuang li:nth-child(1) .qdk1{
+	font-size: 0.16rem;
+	color: #000;
+}
+.querenkuang li:nth-child(1) .qdk2{
+	font-size: 0.16rem;
+	color: #555;
+}
+.querenkuang li:nth-child(2){
+	width: 100%;
+	height: 0.48rem;
+	border-bottom: 0.01rem solid #D6DADD;
+	display: flex;
+}
+.querenkuang li:nth-child(2) a{
+	width: 50%;
+	height: 100%;
+	border-right: 0.01rem solid #E0E1E5;
+	font-size: 0.16rem;
+	color: #0281F4;
+	line-height: 0.48rem;
+	text-align: center;
+}
+.querenkuang li:nth-child(2) .a2{
+	border: none;
+}
+.box{
+	font-size: 0.12rem;
+	width:100%;
+	height: 0.16rem;
+	border: none;
+	opacity: 0.4;
+	color: #b0b0b0;
+    padding-left: 1.5rem;
+}
+.box input{
+	color: #b0b0b0;
+	opacity: 0.4;
+	line-height: .12rem;
+}
+.box span{
+	color: red;
+	text-decoration: underline;
+		line-height: .12rem;
+}

@@ -1,0 +1,182 @@
+/*
+* @Author: Administrator
+* @Date:   2017-08-06 22:34:54
+* @Last Modified by:   Administrator
+* @Last Modified time: 2017-08-06 22:54:53
+*/
+@import url('base.css');
+*{
+	box-sizing: border-box;
+}
+img,a{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+
+.tupian{
+	width: 100%;
+	height: 3.6rem;
+	background-color: red;
+    position: relative;
+}
+.xiazaijiemian{
+	width: 1.6rem;
+	height: 1.26rem;
+	background-color: rgba(0, 0, 0, 0.6);
+	position: absolute;
+	top: 2.46rem;
+	left: .96rem;
+}
+.feiji{
+	width: .68rem;
+	height: .58rem;
+	/* background-color: red; */
+	margin: 0 auto;
+	margin-top: .22rem;
+}
+.zi{
+	width: 100%;
+	height: .16rem;
+	/* background-color: green; */
+	font-size: .16rem;
+	text-align: center;
+	margin-top: .2rem;
+	color: #fff;
+}
+.nav{
+	position: absolute;
+	top: .16rem;
+	width: 100%;
+	height: .16rem;
+	/* background-color: red; */
+	display: flex;
+	justify-content: space-between;
+    padding: 0 .12rem;
+}
+.zuo{
+	width: .1rem;
+	height: 100%;
+	/* background-color: green; */
+}
+.zuo a{
+	color: #fff;
+}
+.you{
+	width: .26rem;
+	height: 100%;
+	/* background-color: green; */
+}
+.you a{
+	font-size: .3rem;
+	line-height: .12rem;
+	color: #fff;
+}
+.sm{
+	width: 100%;
+	height: 2.6rem;
+	background: rgba(0, 0, 0, 0.8);
+	padding: 0.12rem;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+.shang{
+	width: 100%;
+	height: 0.43rem;
+	/* background: red; */
+	display: flex;
+	justify-content: space-between;
+}
+.sz{
+	width: 2.63rem;
+	height: 100%;
+	/* background: #000; */
+	font-size: 0.18rem;
+	color: #fff;
+}
+.sy{
+	width: 0.54rem;
+	height: 0.2rem;
+	font-size: 0.14rem;
+	color: #fff;
+}
+.sy span{
+	font-size: 0.16rem;
+	color: #CAD00B;
+}
+.zhong{
+	width: 2.2rem;
+	height: 0.02rem;
+	background: #5E5F5A;
+}
+.xia{
+	width: 100%;
+	height: 1.64rem;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	position: relative;
+}
+.bt{
+	width: 100%;
+	height: 0.15rem;
+	font-size: 0.14rem;
+	line-height: 0.15rem;
+	color: #9f9f9f;
+}
+.nr{
+	width: 100%;
+	height: 0.71rem;
+	font-size: 0.12rem;
+	color: #9f9f9f;
+	margin-bottom: 0.51rem;
+}
+.dj{
+	width: 1.57rem;
+	height: 0.17rem;
+	/*background: #fff;*/
+	font-size: 0.16rem;
+	line-height: 0.17rem;
+	align-self: flex-end;
+	display: flex;
+	justify-content: space-between;
+}
+.dj a{
+	color: #e5e5e3;
+	
+}
+.baoc{
+	width: 1.59rem;
+	height: 1.26rem;
+	background: #000;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-content: center;
+	padding: 0.18rem 0;
+	position: absolute;
+	top: -1.13rem;
+	left: 0;
+	right: 0;
+	margin-left: auto;
+	margin-right: auto;
+}
+.fj{
+	width: 100%;
+	height: 0.58rem;
+	font-size: 0.56rem;
+	line-height: 0.58rem;
+	text-align: center;
+	color: #fff;
+	
+}
+.baoc div:nth-child(2){
+	color: #fff;
+	font-size: 0.16rem;
+	width: 100%;
+	hanging-punctuation: 0.16rem;
+	line-height: 0.16rem;
+	text-align: center;
+}

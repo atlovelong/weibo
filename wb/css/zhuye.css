@@ -1,0 +1,153 @@
+/*
+* @Author: Administrator
+* @Date:   2017-08-04 09:54:08
+* @Last Modified by:   Administrator
+* @Last Modified time: 2017-09-25 19:44:28
+*/
+@import url('base.css');
+*{
+	box-sizing: border-box;
+}
+header{
+	width: 100%;
+	height: .51rem;
+	position: fixed;
+	top: 0rem;
+	left: 0;
+	background-color: #f5f4fa;
+	/* background-color: red; */
+}
+.guodu{
+	width: 100%;
+	height: .52rem;
+}
+img,a{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+.header{
+	width: 100%;
+	height: 100%;
+	/* border-bottom: .01rem solid #ebebed; */
+	/* background-color: red; */
+	display: flex;
+	justify-content: space-between;
+}
+.user{
+	width: .29rem;
+	height: 100%;
+	/* background-color: blue; */
+	padding-left: .13rem;
+	padding-top: .18rem;	
+}
+.userphoto{
+	width: .16rem;
+	height: .16rem;
+	/* background-color: red; */
+}
+.userphoto a,.userphoto a span{
+	display: block;
+	width: 100%;
+	height: 100%;
+	color: #bdbdbd;
+}
+.mulu{
+	width: 1.2rem;
+	height: 100%;
+	/* background-color: green; */
+	display: flex;
+}
+.xinwen{
+	width: 50%;
+	height: 100%;
+	/* background-color: pink; */
+}
+.mulu .xinwen{
+	border-bottom: .02rem solid red;
+}
+.xinwen a{
+	display: block;
+	color: red;
+	line-height: .51rem;
+    text-align: center;
+    font-size: .16rem;
+}
+.sousuo{
+	width: .29rem;
+	height: 100%;
+	/* background-color: blue; */
+	padding-top: .18rem;
+}
+.tupian{
+    width: 50%;
+    height: 100%;
+    /* background-color: yellowgreen; */
+    padding-top: .18rem;
+}
+.tupianzi{
+	width: 100%;
+	height: .16rem;
+	/* background-color: red; */
+	border-right: .02rem solid #f0f0f0;
+}
+.tupianzi a{
+	display: block;
+	font-size: .16rem;
+	color: black;
+	text-align: center;
+	line-height: .16rem;
+}
+.sousuophoto{
+	width: .16rem;
+	height: .16rem;
+	/* background-color: greenyellow; */
+}
+.sousuophoto a,.sousuophoto a span{
+	display: block;
+	width: 100%;
+	height: 100%;
+	color: #bdbdbd;
+}
+main{
+	width: 100%;
+	height: auto;
+	/* background-color: red; */
+}
+.content{
+	width: 100%;
+	height: 3.5rem;
+	/* background-color: green; */
+}
+.contentphoto{
+	width: 100%;
+	height: 2.48rem;
+	background-color: red;
+}
+.contentword{
+	width: 100%;
+	height: 1.02rem;
+	/* background-color: pink; */
+	display: flex;
+	flex-direction: column;
+}
+.contentword1{
+	width: 100%;
+	/* height: .1rem; */
+	display: flex;
+	justify-content: space-between;
+	padding: .1rem .12rem;
+	font-size: .1rem;
+	color: #c0c0c0;
+}
+.contentword2 li{
+	width: 100%;
+	justify-content: space-between;
+	padding: 0rem .12rem 0rem .12rem;
+	font-size: .14rem;
+	font-weight: bold;
+	color: black;
+
+}
+
+
